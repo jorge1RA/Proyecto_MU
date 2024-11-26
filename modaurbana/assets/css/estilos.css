@@ -1,0 +1,68 @@
+
+/**
+ *
+ * estilos.css
+ * wwwwwwwwwwwwwwwwww
+ * Jorge Romero Ariza
+ *
+ */
+
+
+/**
+ * Define el fondo, color del texto, y alineación del contenido del footer.
+ */
+ footer {
+    background-color: #343a40; /* Fondo oscuro */
+    color: #fff; /* Texto en blanco */
+    padding: 20px 0; /* Espaciado vertical */
+    text-align: center; /* Texto centrado */
+}
+
+
+/**
+ * Remueve el estilo de lista y el padding para las listas dentro del footer.
+ */
+footer ul {
+    padding-left: 0; /* Remueve el padding izquierdo */
+    list-style: none; /* Sin viñetas */
+}
+
+
+/**
+ * Define el margen inferior para cada elemento de la lista.
+ */
+footer ul li {
+    margin-bottom: 5px; /* Espaciado inferior */
+}
+
+
+/**
+ * Estilos para los enlaces dentro de los elementos de la lista del footer.
+ * Colorea el texto y remueve el subrayado.
+ */
+footer ul li a {
+    color: #fff; /* Texto en blanco */
+    text-decoration: none; /* Sin subrayado */
+}
+
+
+/**
+ * Añade subrayado a los enlaces cuando el usuario pasa el mouse sobre ellos.
+ */
+footer ul li a:hover {
+    text-decoration: underline; /* Añadir subrayado al pasar el mouse */
+}
+
+
+/**
+ * Define el espaciado y color de la línea horizontal dentro del footer.
+ */
+footer hr {
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+    border-color: rgba(255, 255, 255, 0.1); /* Color de borde semi-transparente */
+}
+
+
+
+
