@@ -1,31 +1,30 @@
-<!DOCTYPE html>
-<html lang="es">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión</title>
-</head>
+// Inicia la sesión
+session_start();
 
-<body>
-    <div class="container">
-        <br>
-        <h2>Iniciar Sesión</h2>
+// Incluye el esqueleto de la cabecera de la página
+include_once '../../includes/templates/header.php';
+?>
 
-        <form method="POST" action="#">
-            <div class="form-group">
-                <label>Correo electrónico</label>
-                <input type="email" name="email" class="form-control" required>
-            </div>
+<div class="container">
+    <br>
+    <h2>Iniciar Sesión</h2>
 
-            <div class="form-group">
-                <label>Contraseña</label>
-                <input type="password" name="password" class="form-control" required>
-            </div>
+    <!-- Pendiente... -->
+    <!-- Formulario de inicio -->
+    <form>
+        <div class="form-group">
+            <label>Correo electrónico</label>
+            <input type="email" class="form-control" placeholder="Tu correo electrónico">
+        </div>
+        <div class="form-group">
+            <label>Contraseña</label>
+            <input type="password" class="form-control" placeholder="Tu contraseña">
+        </div>
+        <button type="button" class="btn btn-primary">Ingresar</button>
+    </form>
+</div>
 
-            <button type="submit" class="btn btn-primary">Ingresar</button>
-        </form>
-    </div>
-</body>
-
-</html>
+<!-- Incluye el esqueleto del pie de la página -->
+<?php include_once '../../includes/templates/footer.php'; ?>
